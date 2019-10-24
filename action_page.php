@@ -1,3 +1,3 @@
 <?php
-header( 'Location: home.html' ) ;
+header( 'Location: https://de1tag.github.io/OS-Project/home.html' ) ;
 ?>
