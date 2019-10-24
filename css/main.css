@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
+body, html {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  font-family: 'Montserrat';
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 1em 2em;
+  z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: calc(100% - 1em);
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
+}
+
+header .logo {
+  padding: .25em;
+}
+
+header nav {
+  padding-top: .2em;
+  padding-right: 3em;
+}
+
+header nav .btn {
+  display: inline-block;
+  padding: .3em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-font-variant-ligatures: none;
+          font-variant-ligatures: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+header nav .btn--shadow {
+  color: black;
+  background: #FF5E00;
+}
+
+section.hero {
+  padding: 2em 2em 0 2em;
+}
+
+section.hero h1 {
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+section.login {
+  padding: 0 2em 2em 2em;
+}
+
+/* Bordered form */
+form {
+  width: 50%;
+}
+
+label {
+  padding: 0 0 1em 0;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Add padding to containers */
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
