@@ -11,7 +11,6 @@ body {
 
     a {
         text-decoration: none;
-        color: black;
     }
 }
 
@@ -21,12 +20,18 @@ header {
     padding: 1em 2em;
     z-index: 20;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: calc(100% - 1em);
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 3px black;
 
     .logo {
         padding: .25em;
+        font-weight: bold;
+
+        a {
+          color: #4CAF50;
+        }
+
     }
 
     nav {
@@ -40,14 +45,15 @@ header {
             text-decoration: none;
             text-transform: uppercase;
             font-variant-ligatures: none;
-            border-radius: 10px;
+            font-weight: bold;
+            border-radius: 5px;
             font-size: 16px;
             cursor: pointer;
             
         }
 
         .btn--shadow {
-            color: black;
+            color: white;
             background: #FF5E00;
         }
     }
@@ -55,7 +61,7 @@ header {
 }
 
 section.hero {
-    padding: 2em 2em 0 2em;
+    padding: 2em 22.5em;
 
     h1 {
         letter-spacing: 3px;
@@ -65,7 +71,7 @@ section.hero {
 }
 
 section.login {
-    padding: 0 2em 2em 2em;
+    padding: 0 22.5em;
 }
 
 /* Bordered form */
